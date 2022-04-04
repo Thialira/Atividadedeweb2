@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Números Aleatórios</title>
+    <style>
+        body {
+            background: rgb(37, 115, 218);
+            font: normal 15pt Arial;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabela de Números Aleatórios</h2>
+    <p>Informe a quantidade de números Aleatórios: <input type="number" id="qtnume" autofocus placeholder="Informe um valor"></p>
+    <p>Informe a quantidade de colunas: <input type="number" id="qtcolunas" autofocus placeholder="Informe um valor"></p>
+    <p>Informe o menor valor do intervalo: <input type="number" id="nume1" autofocus placeholder="Informe um valor"></p>
+    <p>Informe o maior valor do intervalo: <input type="number" id="nume2" autofocus placeholder="Informe um valor"></p>
+    <button onclick="res()" id="resposta">GERAR</button>
+    <button onclick="limpar()">LIMPAR</button>
+
+    <pre id="tabela"></pre>
+
+    <footer>
+        <!--Rodape-->
+        <p>&copy; Atividade de Programação Web</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
